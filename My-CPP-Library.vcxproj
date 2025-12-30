@@ -127,7 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp" />
+    <ClCompile Include="HomeSpace.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyArrayLib.h" />
+    <ClInclude Include="MyDateLib.h" />
+    <ClInclude Include="MyInputLib.h" />
+    <ClInclude Include="MyMathLib.h" />
+    <ClInclude Include="MyStringLib.h" />
+    <ClInclude Include="MyUtilityLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
