@@ -130,12 +130,12 @@
     <ClCompile Include="HomeSpace.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyArrayLib.h" />
-    <ClInclude Include="MyDateLib.h" />
-    <ClInclude Include="MyInputLib.h" />
-    <ClInclude Include="MyMathLib.h" />
-    <ClInclude Include="MyStringLib.h" />
-    <ClInclude Include="MyUtilityLib.h" />
+    <ClInclude Include="MyLib\MyArrayLib.h" />
+    <ClInclude Include="MyLib\MyDateLib.h" />
+    <ClInclude Include="MyLib\MyInputLib.h" />
+    <ClInclude Include="MyLib\MyMathLib.h" />
+    <ClInclude Include="MyLib\MyStringLib.h" />
+    <ClInclude Include="MyLib\MyUtilityLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
