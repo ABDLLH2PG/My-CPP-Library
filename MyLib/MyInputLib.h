@@ -47,6 +47,20 @@ namespace MyInputLib
 		return (Number >= From && Number <= To);
 	}
 
+	//New Function
+	void ValidateNumber(int& Number, string IncorrectMessage)
+	{
+		while (cin.fail())
+		{
+			cin.clear();
+			cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+			cout << IncorrectMessage << endl;
+
+			cin >> Number;
+		}
+	}
+
 	int ReadPositiveNumber(string Message)
 	{
 		int Number = 0;
