@@ -26,19 +26,22 @@
     <ClInclude Include="MyLib\MyDateLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MyLib\MyFileLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="MyLib\MyInputLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MyLib\MyMathLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MyLib\MyMatrixLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="MyLib\MyStringLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MyLib\MyUtilityLib.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="MyFileLib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

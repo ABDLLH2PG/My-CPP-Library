@@ -130,11 +130,12 @@
     <ClCompile Include="HomeSpace.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MyFileLib.h" />
     <ClInclude Include="MyLib\MyArrayLib.h" />
     <ClInclude Include="MyLib\MyDateLib.h" />
+    <ClInclude Include="MyLib\MyFileLib.h" />
     <ClInclude Include="MyLib\MyInputLib.h" />
     <ClInclude Include="MyLib\MyMathLib.h" />
+    <ClInclude Include="MyLib\MyMatrixLib.h" />
     <ClInclude Include="MyLib\MyStringLib.h" />
     <ClInclude Include="MyLib\MyUtilityLib.h" />
   </ItemGroup>

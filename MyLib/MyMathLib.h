@@ -1,6 +1,7 @@
 //My GitHub account: github.com/ABDLLH2PG
 #pragma once
 #include <iostream>
+#include <iomanip>
 #include <cmath>
 using namespace std;
 
@@ -242,6 +243,39 @@ namespace MyMathLib
 		}
 
 		return Result;
+	}
+
+	void PrintFibonacciUsingLoop(int Length)
+	{
+		int FebNumber = 0, Prev1 = 1, Prev2 = 0;
+		cout << setw(3) << Prev1 << "   ";
+
+		for (short i = 1; i < Length; i++)
+		{
+			FebNumber = Prev1 + Prev2;
+
+			cout << setw(3) << FebNumber << "   ";
+
+			Prev2 = Prev1;
+			Prev1 = FebNumber;
+		}
+	}
+
+	void PrintFibonacciUsingRecursion(short Number, int Prev1, int Prev2)
+	{
+		int FebNumber = 0;
+
+		if (Number > 0)
+		{
+			FebNumber = Prev2 + Prev1;
+
+			Prev2 = Prev1;
+			Prev1 = FebNumber;
+
+			cout << FebNumber << "    ";
+
+			PrintFibonacciUsingRecursion(Number - 1, Prev1, Prev2);
+		}
 	}
 
 	// ------------------------------------------------
